@@ -1,0 +1,56 @@
+controllers:
+   resource:
+       path: ../src/Controller/
+       namespace: App\Controller
+   type: attribute
+product_api_index:
+   path: /api/products
+   controller: 'App\Controller\ProductController::index'
+   methods: ['GET']
+
+
+
+product_api_create:
+   path: /api/products
+   controller: 'App\Controller\ProductController::create'
+   methods: ['POST']
+
+
+product_api_update:
+   path: /api/products/{id}
+   controller: 'App\Controller\ProductController::update'
+   methods: ['PUT']
+
+
+product_api_delete:
+   path: /api/products/{id}
+   controller: 'App\Controller\ProductController::delete'
+   methods: ['DELETE']
+
+
+category_api_index:
+   path: /api/category
+   controller: 'App\Controller\CategoryController::index'
+   methods: ['GET']
+
+
+
+category_api_create:
+   path: /api/category
+   controller: 'App\Controller\CategoryController::create'
+   methods: ['POST']
+
+
+category_api_update:
+   path: /api/category/{id}
+   controller: 'App\Controller\CategoryController::update'
+   methods: ['PUT']
+
+
+category_api_delete:
+   path: /api/category/{id}
+   controller: 'App\Controller\CategoryController::delete'
+   methods: ['DELETE']
+
+
+
