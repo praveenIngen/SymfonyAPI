@@ -54,3 +54,28 @@ category_api_delete:
 
 
 
+customer_api_index:
+   path: /api/customer
+   controller: 'App\Controller\CustomerController::index'
+   methods: ['GET']
+
+
+
+customer_api_create:
+   path: /api/customer
+   controller: 'App\Controller\CustomerController::create'
+   methods: ['POST']
+
+
+customer_api_update:
+   path: /api/customer/{id}
+   controller: 'App\Controller\CustomerController::update'
+   methods: ['PUT']
+
+
+customer_api_delete:
+   path: /api/customer/{id}
+   controller: 'App\Controller\CustomerController::delete'
+   methods: ['DELETE']
+
+
