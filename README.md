@@ -17,20 +17,21 @@ Then you can use the AppURL plus api endpoint to perform the functionality.
 i am using the local setup so:
 
 AppUrl: http://localhost:8000
-API endpoint for Product
-    GET /api/products: Returns all products.
-    POST /api/products: Creates a new product.
-    PUT /api/products/{id}: Updates the product with the specified ID.
-    DELETE /api/products/{id}: Deletes the product with the specified ID.
 
-API endpoint for Category
-    GET /api/category: Returns all Category.
-    POST /api/category: Creates a new Category.
-    PUT /api/category/{id}: Updates the Category with the specified ID.
-    DELETE /api/category/{id}: Deletes the Category with the specified ID.
+A. API endpoint for Product
+   1. GET /api/products: Returns all products.
+   2. POST /api/products: Creates a new product.
+   3. PUT /api/products/{id}: Updates the product with the specified ID.
+   4. DELETE /api/products/{id}: Deletes the product with the specified ID.
 
-API endpoint for Customer
-    GET /api/customer: Returns all Customer.
-    POST /api/customer: Creates a new Customer.
-    PUT /api/customer/{id}: Updates the Customer with the specified ID.
-    DELETE /api/customer/{id}: Deletes the Customer with the specified ID.
+B. API endpoint for Category
+  1. GET /api/category: Returns all Category.
+  2. POST /api/category: Creates a new Category.
+  3. PUT /api/category/{id}: Updates the Category with the specified ID.
+  4. DELETE /api/category/{id}: Deletes the Category with the specified ID.
+
+C. API endpoint for Customer
+   1. GET /api/customer: Returns all Customer.
+   2. POST /api/customer: Creates a new Customer.
+   3. PUT /api/customer/{id}: Updates the Customer with the specified ID.
+   4. DELETE /api/customer/{id}: Deletes the Customer with the specified ID.
